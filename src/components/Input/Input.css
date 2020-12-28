@@ -1,0 +1,51 @@
+.todoListMain .header h1 {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.todoListMain .header input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #FFF;
+  width: 165px;
+}
+
+.todoListMain .header button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  margin-right: 0px;
+  background-color: #f0f0f0;
+  color: #666;
+  border: 2px solid #f0f0f0;
+}
+.todoListMain .header button:hover {
+  background-color: #95969a;
+  border: 2px solid #95969a;
+  color: #FFF;
+  cursor: pointer;
+}
+.todoListMain .taskList {
+  list-style: none;
+  padding-left: 0;
+  width: 250px;
+} 
+.todoListMain .taskList li {
+  color: #333;
+  background-color: rgba(255,255,255,.5);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  list-style: none;
+  transition: background-color 0.4s ease-out;
+}
+
+.todoListMain .taskList li:hover {
+  background-color: #333;
+  color: #fcdf3b;
+  cursor: pointer;
+}
+
+ul .taskList {
+  padding: 0;
+}
