@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Output from "../Output/Output";
-import FlipMove from "react-flip-move";
 import "./Input.css";
 
 class Input extends Component {
@@ -31,8 +30,6 @@ class Input extends Component {
 
     this._inputEle.value = "";
 
-    console.log(this.state.taskArray);
-
     e.preventDefault();
   }
 
@@ -42,7 +39,7 @@ class Input extends Component {
     });
 
     this.setState({
-      taskArray: filteredList
+      taskAray: filteredList
     });
   }
 

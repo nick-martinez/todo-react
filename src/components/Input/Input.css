@@ -19,12 +19,14 @@
   color: #666;
   border: 2px solid #f0f0f0;
 }
+
 .todoListMain .header button:hover {
   background-color: #95969a;
   border: 2px solid #95969a;
   color: #FFF;
   cursor: pointer;
 }
+
 .todoListMain .taskList {
   list-style: none;
   padding-left: 0;
